@@ -1,4 +1,8 @@
 <mat-toolbar class="footer">
 
-    <span class="v-middle">Developed By Robson Paradella Rocha<i class="red material-icons">fingerprint</i>2023</span>
+    <span class="v-middle">Developed By Robson Paradella Rocha<i appRed class="material-icons">fingerprint</i>2023</span>
+    <ul>
+        <li *appFor="let n in [1,2,3]"></li>
+    </ul>
+
 </mat-toolbar>
